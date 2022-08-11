@@ -1,0 +1,90 @@
+img.banner{
+   border-radius: 10px;
+   width: 50%;
+
+}
+
+.green {
+  margin: 10px;
+  background-color: #448806;
+  height: 10px;
+  width:50%;
+  border-radius: 10px;
+}
+
+.contact {
+  position: relative;
+  margin: 10px;
+  background-color: white;
+  height: 125px;
+  width:48.6%;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+
+.contact h1 {
+  font-family: 'Lato', sans-serif;
+  float: left;
+}
+
+.required {
+  font-family: 'Lato', sans-serif;
+  color: red;
+  /* Clears the previous float and sets it back to default */
+  clear: left;
+  float: left;
+}
+
+.name, .email, .address, .phone, .comments{
+  background-color: white;
+  height: 150px;
+  width:48.6%;
+  padding-left: 25px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+h3 {
+  clear: left;
+  float: left;
+}
+
+.red {
+  color: red;
+  float: left;
+}
+
+input {
+  clear: left;
+  float: left;
+  width: 50%;
+}
+
+input {
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: groove;
+}
+
+.submit {
+  font-family: 'Gelasio', serif;
+  background-color: rgb(41, 137, 4);
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 10px;
+
+  position: absolute;
+  left: 24.5%;
+}
+
+.exit{
+  font-family: 'Gelasio', serif;
+  background-color: rgb(41, 137, 4);
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 10px;
+
+  position: absolute;
+  right: 24.5%;
+}
