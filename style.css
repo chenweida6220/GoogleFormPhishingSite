@@ -89,7 +89,7 @@ input {
   right: 24.5%;
 }
 
-#gif_rickroll {
+#gif_rickroll, #gif_screamingbeaver {
   display: none;
   position: fixed; 
   top: 0; 
@@ -99,3 +99,4 @@ input {
   min-width: 100%;
   min-height: 100%;
 }
+
