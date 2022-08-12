@@ -88,3 +88,14 @@ input {
   position: absolute;
   right: 24.5%;
 }
+
+#gif_rickroll {
+  display: none;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}

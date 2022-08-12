@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <!-- Link HTML to CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<center>
@@ -16,6 +17,9 @@
     </head>
 
     <body style="background-color:#D5F5E3;">
+      <!-- Link HTML to JS -->
+      <script src="script.js"></script>
+
       <form>
       <center>
         
@@ -57,14 +61,11 @@
         <input class="input" type="text" placeholder="Your answer" required>
       </div>
 
-      <script>
-        var audio = new Audio("Audio/WOMAN SCREAM.mp3");
-      </script> 
+          <audio id="audio_rickroll" src="./Audio and GIF/Rick Astley - Never Gonna Give You Up (Official Music Video).mp3" alt="audio of rickroll" preload="auto"></audio>
+          <button id="buttonSubmit" class="submit" onclick="document.getElementById('audio_rickroll').play()">Submit</button>
 
-          <button class="submit" onclick="window.open(('https://lithub.com/wp-content/uploads/2019/11/Momo.jpg','_self')">Submit</button>
-
-          <button class="exit" onclick="audio.play ( );">Exit</button>
-
+          <img id="gif_rickroll" src="./Audio and GIF/rickroll.gif" alt="gif of rickroll"/>
+          <button id="buttonExit" class="exit" onclick="show()">Exit</button>
 
       </center>
       </form>
