@@ -20,10 +20,10 @@ Pressing either the Submit or Exit button will play audio and positions a GIF on
 There is no backend storage for the form.
 
 ## Product Spec
-[x] Each form field is required
-[x] The page and its content responds to browser size
-[x] Submit button plays audio and redirects to a GIF
-[x] Exit button plays audio and redirects to a GIF
+- [x] Each form field is required
+- [x] The page and its content responds to browser size
+- [x] Submit button plays audio and redirects to a GIF
+- [x] Exit button plays audio and redirects to a GIF
 
 ## GIF
 
