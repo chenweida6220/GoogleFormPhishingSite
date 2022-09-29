@@ -16,8 +16,7 @@ To create a knockoff version of a Google Form that is meant to act as a prank/ph
 
 **Description**
 
-Pressing either the Submit or Exit button will play audio and positions a GIF onto the screen.
-There is no backend storage for the form.
+Pressing the Submit or Exit button will play audio and position a GIF onto the screen. There is no backend storage for the form.
 
 ## Product Spec
 - [x] Each form field is required
