@@ -12,7 +12,7 @@
 
 **Goal**
 
-To create a knockoff version of a Google Form that is meant to act as a prank/phishing site.
+To create a knockoff version of a Google Form that acts as a prank/phishing site.
 
 **Description**
 
